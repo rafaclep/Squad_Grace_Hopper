@@ -8,11 +8,9 @@ def verificar_acesso(login, senha):
     else:
         return False
 
-# Solicita ao usuário para inserir o login e a senha
 login_usuario = input("Digite o login: ")
 senha_usuario = input("Digite a senha: ")
 
-# Verifica se o acesso é permitido
 if verificar_acesso(login_usuario, senha_usuario):
     print("Acesso permitido.")
 else:
